@@ -13,7 +13,6 @@ tags:
   - splice
 ---
 
-Update: 我最后还是放弃在 Vim 模式下输入中文了，mental model 的 cost 太重了（
 
 ---
 
