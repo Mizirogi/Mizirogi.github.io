@@ -4,7 +4,8 @@ title: "Js数组方法重写"
 subtitle: "JS Pop,Unshift,Slice,Splice方法重写"
 date: 2019-07-01 12:00:00
 author: "Li"
-header-style: text
+header-img: "img/post-bg-js-version.jpg"
+header-mask: 0.4
 tags:
   - JS
   - slice
