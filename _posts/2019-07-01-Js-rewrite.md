@@ -17,10 +17,10 @@ tags:
 
 ---
 
-最近重写了js中Arry数组的一些方法，闲着把这些po在下面
+最近重写了js中Array数组的一些方法，闲着把这些po在下面
 
 pop方法
-
+```javascript
     Array.prototype.popp = function () {
     if (this.length === 0) {
         return undefined
@@ -29,13 +29,12 @@ pop方法
     this.length = this.length - 1
     return b
     }
-
+```
 ubshift方法
-
+```javascript
     Array.prototype.unshiftt = function () {
     for (let i = arguments.length + this.length - 1; i >= 0; i--) {
         if (i - arguments.length >= 0) {
-            // console.log(i)
             this[i] = this[i - arguments.length]
         }
         else {
@@ -44,9 +43,9 @@ ubshift方法
     }
     return this.length
     }
-
+```
 slice方法
-
+```javascript
     Array.prototype.sliceee = function (start, end) {
     var b = [];
     for (let i = start, j = 0; i < end; i++ , j++) {
@@ -55,9 +54,9 @@ slice方法
     }
     return b;
     }
-
+```
 splice方法
-
+```javascript
     Array.prototype.spliceee = function (idx, num) {
     var b = []
     if (idx < 0) {
@@ -105,5 +104,5 @@ splice方法
         return b
     }
     }
-
+```
 splice方法没有做简化，第一次重写时，第2个参数是作为选择插入数组的元素个数的，最终还是用for循环来实现的，如果想要精简的话应该可以用几个回调函数。
