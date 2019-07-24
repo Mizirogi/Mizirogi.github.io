@@ -20,13 +20,13 @@ tags:
 
 wxml
 ```html
-<view class="modalDlg" wx:if="{{!hasUserInfo && canIUse}}">
+<view class="modalDlg" wx:if="{% raw %}{{% endraw %}{{!hasUserInfo && canIUse}}">
 <view class='close_mask' bindtap="close_mask">X</view>
 <image src="../../img/home_ic_college2.png" style="width:340rpx;height:340rpx"></image>
 <p style="font-weight:bold">欢迎来到~</p>
-<button id="login" wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 微信授权 </button>
+<button id="login" wx:if="{% raw %}{{% endraw %}{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 微信授权 </button>
 </view>
-<view class="mask" catchtouchmove="preventTouchMove" wx:if="{{!hasUserInfo && canIUse}}"></view>
+<view class="mask" catchtouchmove="preventTouchMove" wx:if="{% raw %}{{% endraw %}{{!hasUserInfo && canIUse}}"></view>
 ```
 index.js
 ```javascript
@@ -147,7 +147,7 @@ css文件
 ```
 因为小程序异步的问题，并且getuserinfo是一个网络请求，且蒙版判断条件如下，
 
-    <view class="modalDlg" wx:if="{{!hasUserInfo && canIUse}}">
+    <view class="modalDlg" wx:if="{% raw %}{{% endraw %}{{!hasUserInfo && canIUse}}">
 
 
 在已授权的情况下，重复进入小程序首页时，可能会闪出一次蒙版授权弹窗，后续建议给已授权的用户一个Flag来判断是否已授权，建议查阅授权的时效来决定采用哪种操作。
