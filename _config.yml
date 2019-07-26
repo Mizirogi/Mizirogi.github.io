@@ -64,6 +64,15 @@ disqus_username: nextickicu
 # Netease settings
 netease_comment: false
 
+valine_comment:
+    enable: true
+# app_id
+    leancloud_appid: gEkw1BH5bgc0kh46jbqv5xnu-gzGzoHsz
+# app_key
+    leancloud_appkey: b8oex60mxCMf4cm05bx4DGn6
+# placeholde
+    placeholder: “留个痕迹吧"
+
 
 
 # Analytics settings
