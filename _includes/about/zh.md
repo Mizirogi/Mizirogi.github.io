@@ -5,7 +5,7 @@ Hey，我是Li，每天一脸懵逼，也不知道在做啥。目前主要做前
 
 作为Github上最菜的人，也就每天fork fork过过日子，看看大佬们的高端操作，作为一条咸鱼由衷的喊666。
 
-如果有想搞事的可以带我一个，HHHH，一起快乐的摸鱼。
+如果有想搞事的可以带我一个，HHHH，一起快乐的摸鱼,hiahia。
 
 ##### My Programming Languages Spectrum
 
