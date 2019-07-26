@@ -113,7 +113,7 @@ layout: default
 {% if site.valine_comment.enable %}
 <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
 <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
-<script>
+<script type="text/javascript">
     new Valine({
         el: '#comments',
         app_id: '{{ site.valine_comment.leancloud_appid }}',   //这里变量的取值在网站配置文件里_config.yml
@@ -121,7 +121,6 @@ layout: default
         placeholder: '{{ site.valine_comment.placeholder }}'    //这里变量的取值在网站配置文件里_config.yml
     });</script>
 {% endif %}
-{% endunless %}
 
 <!-- {% if site.disqus_username %} -->
 <!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
