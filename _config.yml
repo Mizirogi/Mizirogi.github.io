@@ -70,7 +70,7 @@ netease_comment: false
 valine_comment.enable: true
 valine_comment.leancloud_appid: gEkw1BH5bgc0kh46jbqv5xnu-gzGzoHsz
 valine_comment.leancloud_appkey: b8oex60mxCMf4cm05bx4DGn6
-valine_comment.placeholder: “留个痕迹吧"
+valine_comment.placeholder: '留个痕迹吧'
 
 
 
